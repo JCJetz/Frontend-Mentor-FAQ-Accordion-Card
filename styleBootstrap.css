@@ -18,7 +18,22 @@
 * {
 
   box-sizing: border-box; 
-     }
+}
+
+a  {
+    color: black;
+    text-decoration: none;
+    background-color: none;
+}
+
+a:link  {
+   
+    text-decoration: none;
+    background-color: none;
+    color: black;
+    
+}
+
 
 html {
 
@@ -27,14 +42,6 @@ font-family: 'Kumbh Sans 400' cursive;
 font-family: 'Kumbh Sans 700', sans-serif;
 }
 
-
-
-a {
-    background-color: white;
-  }
-
-
-  
 
 
 body {
@@ -49,70 +56,9 @@ body {
 }
 
 
-.wrapper {
-    background: white url(/images/bg-pattern-desktop.svg) no-repeat -1090% 65%; /*Sombra en negativo*/
-    border-radius: 30px;
-    height: 509px;
-    width: 1024px; /*no 920*/
-    display: grid;
-    grid-template-columns: 450px 1fr;
-    grid-gap: 5rem;
-}
-
-
-:root {
-    --Very-dark-desaturated-blue:           hsl(238, 29%, 16%); /*Text*/
-    --Soft-red:                             hsl(14, 88%, 65%);  /*Text*/
-    
-    --Soft-violet:                          hsl(273, 75%, 66%); /*Background gradient*/
-    --Soft-blue:                            hsl(240, 73%, 65%); /*Background gradient*/
-   
-
-    --Very-dark-grayish-blue:               hsl(237, 12%, 33%);  /* Neutral Text*/
-    --Dark-grayish-blue:                    hsl(240, 6%, 50%);  /* Neutral Text*/
-    
-    --Light-grayish-blue:                   hsl(240, 5%, 91%);  /*Dividers*/
-    
-
-}
-
-
-* {
-
-  box-sizing: border-box; 
-     }
-
-.html {
-
-font-size: 12px;
-font-family: 'Kumbh Sans 400' cursive;
-font-family: 'Kumbh Sans 700', sans-serif;
-}
-
-
-
-.a {
-    background-color: white;
-  }
-
-
-
-
-
-.body {
-    margin: 0;
-    background: linear-gradient(hsl(273, 75%, 66%),hsl(240, 73%, 65%));
-    width: 100vw;
-    height: 100vh;
-    font-size: 14px;
-    display: grid;
-    justify-content: center;
-    align-items: center;
-}
-
 
 .container {
-    background: white url(/images/bg-pattern-desktop.svg) no-repeat 1124% 65%; /*Sombra en negativo 1129% */
+    background: white url(/images/bg-pattern-desktop.svg) no-repeat 1150% 45%; /* Tmb Sombra en negativo */
     border-radius: 30px;
     height: 509px;
     width: 920px; /*no 920*/
@@ -120,7 +66,8 @@ font-family: 'Kumbh Sans 700', sans-serif;
     grid-template-columns: 450px 1fr;
     grid-gap: 5rem;
 
-    /*position: absolute;
+/*
+  position: absolute;
   background-color: white;
   background-image:
   url(../images/illustration-woman-online-desktop.svg),
@@ -135,8 +82,8 @@ font-family: 'Kumbh Sans 700', sans-serif;
   /* position: absolute;
     width: 18%;
     right: 32%;
-    top: 30%;  
-   */
+    top: 30%; Asi no */
+   
    margin-top: 176px;
    display: flex;
    flex-direction: column;
@@ -181,17 +128,13 @@ font-family: 'Kumbh Sans 700', sans-serif;
     position: absolute;
     left: 15%;
     top: 16%;
-  /*  top: 20%; */
-   /* left: 30%; */
-  /*  height: 30%; */
-    
 }
+
 .box {
     position: absolute;
     left: 13%;
     top: 34%;
     height: 15%;
-
 }
 
 .svg {
@@ -206,55 +149,14 @@ font-family: 'Kumbh Sans 700', sans-serif;
     text-align: center;
     margin-top: -210px;
     font-size: 11px;
-
+    text-decoration: none;
+    background-color: none;
+    
 }
 
-/*
-@media screen and (max-width: 1200px) { 
-
-    .accordion {
-        width: 100%;
-       margin-top: 216px;
-        
-    
-       
-    }
-    
-    .box {
-          position: absolute;
-        left: 1%;
-        top: 29%;
-        height: 15%;
-        }
-        .woman {
-            position: absolute;
-            left: 6%;
-            top: 16%; 
-        }
 
 
-        .svg {
-            top: 56%;
-            left: 66%;
-            height: 70%;
-           margin-top: 0;
-          
-        }
-        
-        .attribution {
-            text-align: center;
-            margin-top: -518px;
-            font-size: 11px;
-        
-        }
-
-}
-*/
-
-
-
-@media screen and (max-width: 500px) {
-
+@media screen and (max-width: 700px) {
 
 
     .container {
@@ -277,23 +179,22 @@ font-family: 'Kumbh Sans 700', sans-serif;
       }
      
     .accordion {
-    width: 90%;
-   margin-top: 240px;
-   margin-left: 12px;
-    
-
-   
-}
+         width: 90%;
+         margin-top: 234px;
+        margin-left: 12px;
+       
+        }
 
     .box {
        display: none;
     }
+
     .woman {
-     /*   width: 60%;
+     /* width: 60%;
         top: -15%;
         margin-left: 0%; */
         width: 70%;  
-        top: -70%;
+        top: -90%;
         margin-left: 0%;
     }
 
@@ -303,11 +204,69 @@ font-family: 'Kumbh Sans 700', sans-serif;
         background-image: url(./images/bg-pattern-mobile.svg);
         background-repeat: no-repeat;
 
-       background-position: center -900%; 
+        background-position: center -900%; 
         width: 100%;
         height: 101px;
     }
     
    
 }
+
+
+
+
+
+/*@media screen and (min-width: 1300px) */
+
+
+  @media (min-width: 2000px) and (max-width: 3000px) { 
+    
+
+
+    .accordion {
+          position: absolute;
+         /* width: 25%;
+          right: 57%;
+          top: 20%; */
+          margin-right: -8%;
+        
+      }
+      
+    .woman {
+        left:27%;
+        background-repeat: no-repeat;
+        background-position: 120% center;
+    }
+
+    
+    
+    .box {
+
+        display: none;
+         /* position: flex;
+          left: -159%;
+          top: 24%;
+          height: 15%;  */
+        } 
+
+    
+
+
+    .svg {
+        top: 56%;
+        left: 66%;
+        height: 70%;
+        margin-top: 0;
+          
+        }
+        
+    .attribution {
+        text-align: center;
+        margin-top: -694px;
+        font-size: 11px;
+        
+        }
+
+}
+
 
