@@ -181,7 +181,7 @@ body {
     .accordion {
          width: 90%;
          margin-top: 234px;
-        margin-left: 12px;
+         margin-left: 12px;
        
         }
 
@@ -190,9 +190,6 @@ body {
     }
 
     .woman {
-     /* width: 60%;
-        top: -15%;
-        margin-left: 0%; */
         width: 70%;  
         top: -90%;
         margin-left: 0%;
@@ -233,16 +230,18 @@ body {
       }
       
     .woman {
-        left:27%;
-        background-repeat: no-repeat;
-        background-position: 120% center;
+        top: 18%;
+        margin-left: 22rem;
+        /* left: 30%;*/
+
     }
 
     
     
     .box {
 
-        display: none;
+        top: 29%;
+        left: 27%;
          /* position: flex;
           left: -159%;
           top: 24%;

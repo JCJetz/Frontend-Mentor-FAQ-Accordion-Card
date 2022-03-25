@@ -30,10 +30,13 @@ Users should be able to:
 - **Bonus**: Complete the challenge without using JavaScript
 
 
-### ⭐ Useful resources
- 
+### Useful resources  
+
+- ⭐ [CSS Selector Reference](https://www.w3schools.com/cssref/css_selectors.asp)
 
 - ⭐ [CSS media queries](https://developer.mozilla.org/es/docs/Web/CSS/Media_Queries/Using_media_queries)
+
+- ⭐ [More media queries](https://www.mclibre.org/consultar/htmlcss/css/css-media-queries.html)
 
 - ⭐ [Collapse](https://getbootstrap.com/docs/4.3/components/collapse/#accordion-example)
 
