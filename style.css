@@ -61,7 +61,7 @@ body {
     background: white url(images/bg-pattern-desktop.svg) no-repeat 1150% 45%; /* Tmb Sombra en negativo */
     border-radius: 30px;
     height: 509px;
-    width: 920px; /*no 920*/
+    width: 920px; 
     display: grid;
     grid-template-columns: 450px 1fr;
     grid-gap: 5rem;
@@ -84,7 +84,7 @@ body {
     right: 32%;
     top: 30%; Asi no */
    
-   margin-top: 176px;
+   margin-top: -170px;
    display: flex;
    flex-direction: column;
    margin-left: -28px;
@@ -123,31 +123,44 @@ body {
 }
 
 
-.woman {
+.woman { 
+    display: block;
+    margin-top: 5.7rem;
+    margin-left: -47.5rem;
+ }
 
+.box {    
+    display: block;
+    margin-left: -54.5rem;
+    margin-top: -21.7rem;
+}
+
+/*  Esto se me mueveee, así no! Solución rem!
+
+.woman {    
     position: absolute;
     left: 15%;
     top: 16%;
+          
 }
-
 .box {
     position: absolute;
     left: 13%;
     top: 34%;
     height: 15%;
-}
+}  */
 
 .svg {
     top: 56%;
     left: 66%;
     height: 70%;
-   margin-top: 0;
+    margin-top: 0;
   
 }
 
 .attribution {
     text-align: center;
-    margin-top: -210px;
+    margin-top: -175px;
     font-size: 11px;
     text-decoration: none;
     background-color: none;
@@ -155,8 +168,27 @@ body {
 }
 
 
+@media screen and (max-width: 993px) {
 
-@media screen and (max-width: 700px) {
+
+    .accordion {
+       margin-top: -18rem;
+       margin-left: -14rem;
+      
+    }
+    
+    .woman {
+      margin-top: 5.7rem;
+      margin-left: -57rem;
+      /* left: 30%;*/
+    }
+    .box {
+        display: none;
+    }
+    }
+    
+
+@media screen and (max-width: 766px) {
 
 
     .container {
@@ -180,7 +212,7 @@ body {
      
     .accordion {
          width: 90%;
-         margin-top: 234px;
+         margin-top: 7rem; /*rem*/
          margin-left: 12px;
        
         }
@@ -191,8 +223,8 @@ body {
 
     .woman {
         width: 70%;  
-        top: -90%;
-        margin-left: 0%;
+        margin-top: -5rem; /*rem*/
+        margin-left: 4rem; /*rem*/
     }
 
     .images {
@@ -205,52 +237,33 @@ body {
         width: 100%;
         height: 101px;
     }
-    
+    .attribution {
+        margin-top: -140px;
+    }
    
 }
 
 
-
-
-
-/*@media screen and (min-width: 1300px) */
-
-
-  @media (min-width: 2000px) and (max-width: 3000px) { 
+ /* @media (min-width: 2000px) and (max-width: 3000px) { 
     
-
-
     .accordion {
-          position: absolute;
-         /* width: 25%;
-          right: 57%;
-          top: 20%; */
-          margin-right: -8%;
+        position: absolute;
+         margin-top: rem;
+         margin-right: rem;
         
-      }
+    }
       
     .woman {
-        top: 18%;
-        margin-left: 22rem;
-        /* left: 30%;*/
+        margin-top: 5.7rem;
+        margin-left: 4rem;
 
     }
 
-    
-    
     .box {
-
         top: 29%;
         left: 27%;
-         /* position: flex;
-          left: -159%;
-          top: 24%;
-          height: 15%;  */
-        } 
-
-    
-
-
+    } 
+         
     .svg {
         top: 56%;
         left: 66%;
@@ -261,11 +274,11 @@ body {
         
     .attribution {
         text-align: center;
-        margin-top: -694px;
+        margin-top: -500px;
         font-size: 11px;
         
         }
 
-}
+}   */
 
 

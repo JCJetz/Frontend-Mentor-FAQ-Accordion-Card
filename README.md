@@ -1,19 +1,20 @@
 # Frontend Mentor - FAQ accordion card solution
 
- Challenge [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). 
+ Challenge [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). ⬅️
 
-This is my solution to the NFT preview card component challenge on Frontend Mentor  :D
+This is my solution to the FAQ accordion card component challenge on Frontend Mentor.
 
  ### Screenshot
 
-![PREVIEW](images/screenshot_nftcard.png)
+![PREVIEW](images/screenshot_FAQaccordion.png)
 
 
 ### Links
 
-- [Solution Frontend Mentor](https://www.frontendmentor.io/solutions/nft-preview-card-using-css-zEOVlGs1B)
+- [Solution Frontend Mentor](https://www.frontendmentor.io/solutions/nft-preview-card-using-css-zEOVlGs1B)   ⬅️
 
-- [Live Site URL](https://jcjetz.github.io/FEM-NFT_preview_card/)
+- [Live Site URL](https://jcjetz.github.io/Frontend-Mentor-FAQ-Accordion-Card/)
+
 
 
 
@@ -27,7 +28,8 @@ Users should be able to:
 - View the optimal layout for the component depending on their device's screen size
 - See hover states for all interactive elements on the page
 - Hide/Show the answer to a question when the question is clicked
-- **Bonus**: Complete the challenge without using JavaScript
+
+- **Bonus**: Complete the challenge without using JavaScript 🎊
 
 
 ### Useful resources  
@@ -40,6 +42,8 @@ Users should be able to:
 
 - ⭐ [Collapse](https://getbootstrap.com/docs/4.3/components/collapse/#accordion-example)
 
+- ⭐ [rem Converter](https://nekocalc.com/px-to-rem-converter)
+
 
 ### Built with
 
@@ -47,7 +51,7 @@ Users should be able to:
 - CSS 
 - Flex
 - Grid
-- I have done this challenge using bootstrap.
+- ✅ I have done this challenge using bootstrap.
 
 
 
