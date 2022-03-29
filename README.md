@@ -48,7 +48,7 @@ Users should be able to:
 - CSS 
 - Flex
 - Grid
-- ✅ I have done this challenge using bootstrap.
+- Bootstrap.
 
 
 
