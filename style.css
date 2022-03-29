@@ -58,7 +58,7 @@ body {
 
 
 .container {
-    background: white url(images/bg-pattern-desktop.svg) no-repeat 1150% 45%; /* Tmb Sombra en negativo */
+    background: white url(images/bg-pattern-desktop.svg) no-repeat 1250% 55%; /* Tmb Sombra en negativo */
     border-radius: 30px;
     height: 509px;
     width: 920px; 
@@ -131,8 +131,8 @@ body {
 
 .box {    
     display: block;
-    margin-left: -54.5rem;
-    margin-top: -21.7rem;
+    margin-left: -50.5rem;
+    margin-top: -18.7rem;
 }
 
 /*  Esto se me mueveee, así no! Solución rem!
@@ -160,7 +160,7 @@ body {
 
 .attribution {
     text-align: center;
-    margin-top: -175px;
+    margin-top: -285px;
     font-size: 11px;
     text-decoration: none;
     background-color: none;
