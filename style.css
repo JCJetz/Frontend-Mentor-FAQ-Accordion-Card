@@ -84,7 +84,7 @@ body {
     right: 32%;
     top: 30%; Asi no */
    
-   margin-top: -170px;
+   margin-top: -202px;
    display: flex;
    flex-direction: column;
    margin-left: -28px;
@@ -100,7 +100,7 @@ body {
 
 
 .accordion-button {
-    color: #060606;
+    color: var(--Very-dark-grayish-blue);
     background-color: white; 
     box-shadow: none; 
 }
@@ -117,7 +117,7 @@ body {
     margin-top: 33px;
     display: flex;
   /*  display: block; */
-    margin-block-start: 2.62em;
+    margin-block-start: 2.2em;
     margin-inline-start: 504px;
     font-weight: bold;
 }
@@ -125,7 +125,7 @@ body {
 
 .woman { 
     display: block;
-    margin-top: 5.7rem;
+    margin-top: 4.7rem;
     margin-left: -47.5rem;
  }
 
@@ -160,7 +160,7 @@ body {
 
 .attribution {
     text-align: center;
-    margin-top: -285px;
+    margin-top: -10rem;
     font-size: 11px;
     text-decoration: none;
     background-color: none;
