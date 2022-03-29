@@ -1,6 +1,6 @@
 # Frontend Mentor - FAQ accordion card solution
 
- Challenge [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). ⬅️
+ Challenge [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam).
 
 This is my solution to the FAQ accordion card component challenge on Frontend Mentor.
 
@@ -11,12 +11,9 @@ This is my solution to the FAQ accordion card component challenge on Frontend Me
 
 ### Links
 
-- [Solution Frontend Mentor](https://www.frontendmentor.io/solutions/nft-preview-card-using-css-zEOVlGs1B)   ⬅️
+- [Solution Frontend Mentor](https://www.frontendmentor.io/solutions/faq-accordion-card-solution-H1HIcIx79)
 
 - [Live Site URL](https://jcjetz.github.io/Frontend-Mentor-FAQ-Accordion-Card/)
-
-
-
 
 
 
